@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.3)),url(https://images.pexels.com/photos/131683/pexels-photo-131683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+}
+form{
+  background: #fff;
+  padding: 0 60px;
+  border-radius: 10px;
+}
+h1{
+  color: rgb(1, 107, 54);
+  text-align: center;
+}
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(1, 107, 54);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
